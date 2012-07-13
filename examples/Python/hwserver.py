@@ -1,8 +1,8 @@
-#
-#   Hello World server in Python
-#   Binds REP socket to tcp://*:5555
-#   Expects "Hello" from client, replies with "World"
-#
+"""
+Hello World server in Python
+Binds REP socket to tcp://*:5555
+Expects "Hello" from client, replies with "World"
+"""
 import zmq
 import time
 
