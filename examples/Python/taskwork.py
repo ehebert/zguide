@@ -1,10 +1,12 @@
-# Task worker
-# Connects PULL socket to tcp://localhost:5557
-# Collects workloads from ventilator via that socket
-# Connects PUSH socket to tcp://localhost:5558
-# Sends results to sink via that socket
-#
-# Author: Lev Givon <lev(at)columbia(dot)edu>
+"""
+Task worker
+Connects PULL socket to tcp://localhost:5557
+Collects workloads from ventilator via that socket
+Connects PUSH socket to tcp://localhost:5558
+Sends results to sink via that socket
+
+Author: Lev Givon <lev(at)columbia(dot)edu>
+"""
 
 import sys
 import time
