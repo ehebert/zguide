@@ -1,8 +1,8 @@
-#
-#   Weather update server
-#   Binds PUB socket to tcp://*:5556
-#   Publishes random weather updates
-#
+"""
+Weather update server
+Binds PUB socket to tcp://*:5556
+Publishes random weather updates
+"""
 
 import zmq
 import random
