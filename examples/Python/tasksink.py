@@ -31,5 +31,4 @@ for task_nbr in range(100):
 
 # Calculate and report duration of batch
 tend = time.time()
-print "Total elapsed time: %d msec" % ((tend-tstart)*1000)
-
+print "Total elapsed time: %d msec" % ((tend - tstart) * 1000)
