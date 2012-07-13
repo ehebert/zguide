@@ -31,8 +31,7 @@ while True:
     sys.stdout.flush()
 
     # Do the work
-    time.sleep(int(s)*0.001)
+    time.sleep(int(s) * 0.001)
 
     # Send results to sink
     sender.send('')
-
