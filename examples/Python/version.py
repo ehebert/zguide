@@ -1,6 +1,8 @@
-# Report 0MQ version
-#
-# Author: Lev Givon <lev(at)columbia(dot)edu>
+"""
+Report 0MQ version
+
+Author: Lev Givon <lev(at)columbia(dot)edu>
+"""
 
 import zmq
 
